@@ -5,11 +5,11 @@
  * print_unsigned - Prints an unsigned number
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Calculates all  active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed.
+ * Return: Number of all  chars printed.
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -44,7 +44,7 @@ int print_unsigned(va_list types, char buffer[],
  * @precision: the Precision specification
  * @size: the Size specifier
  *
- * Return: the Number of chars printed
+ * Return: all the Number of chars printed
  */
 int print_octal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -85,7 +85,7 @@ int print_octal(va_list types, char buffer[],
  * @precision: Precision specification
  * @size: the Size specifier
  *
- * Return: the Number of chars printed
+ * Return: all  the Number of chars printed
  */
 int print_hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
